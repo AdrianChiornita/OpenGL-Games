@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{9494f307-c1ec-49c3-b3a2-e8bd3267d84e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Window">
+      <UniqueIdentifier>{a3d208ce-c616-4e32-9d2d-f8e8825c59cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{1d2eb2cb-c2cc-41b4-af6d-395b05f55a04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Component">
+      <UniqueIdentifier>{473dfab2-3e7d-432d-8e69-65aa99f48c29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\GPU">
+      <UniqueIdentifier>{271e5bd2-7cb3-40b7-b2e5-5e343c58f910}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Managers">
+      <UniqueIdentifier>{2940a1fd-9fef-46a7-93fb-a8241118d00a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games">
+      <UniqueIdentifier>{9dc604e8-0d12-48f8-83a6-a3246993e4a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Brick Game">
+      <UniqueIdentifier>{5122dd00-01da-4447-9cda-126d7e9f35a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\8 Ball Pool">
+      <UniqueIdentifier>{bccafc3b-56bc-4004-b838-5cf5165545c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Games\Procedural City">
+      <UniqueIdentifier>{3675686c-2ece-4575-b5f9-4a28de5ef3e3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Source\Core\Engine.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core\World.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\include\gl.cpp">
+      <Filter>include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core\Window\WindowObject.cpp">
+      <Filter>Core\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core\GPU\Shader.cpp">
+      <Filter>Core\GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Main.cpp" />
+    <ClCompile Include="..\Source\Core\Window\WindowCallbacks.cpp">
+      <Filter>Core\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core\GPU\Mesh.cpp">
+      <Filter>Core\GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core\GPU\Texture2D.cpp">
+      <Filter>Core\GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core\Managers\TextureManager.cpp">
+      <Filter>Core\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Component\CameraInput.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core\Window\InputController.cpp">
+      <Filter>Core\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Component\SimpleScene.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core\GPU\GPUBuffers.cpp">
+      <Filter>Core\GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Component\SceneInput.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Brick Game\BrickGame.cpp">
+      <Filter>Games\Brick Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Brick Game\Level.cpp">
+      <Filter>Games\Brick Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Brick Game\O2D.cpp">
+      <Filter>Games\Brick Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Brick Game\Object.cpp">
+      <Filter>Games\Brick Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\8 Ball Pool\O3D.cpp">
+      <Filter>Games\8 Ball Pool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\8 Ball Pool\Objects3D.cpp">
+      <Filter>Games\8 Ball Pool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\8 Ball Pool\PoolGame.cpp">
+      <Filter>Games\8 Ball Pool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\8 Ball Pool\Utilities.cpp">
+      <Filter>Games\8 Ball Pool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Procedural City\Sources\Camera\CityCamera.cpp">
+      <Filter>Games\Procedural City</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Procedural City\Sources\DataGeneration\BuildingGenerator.cpp">
+      <Filter>Games\Procedural City</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Procedural City\Sources\DataGeneration\StreetGeneration.cpp">
+      <Filter>Games\Procedural City</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Procedural City\Sources\Skybox\SkyBox.cpp">
+      <Filter>Games\Procedural City</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Games\Procedural City\Sources\ProceduralCity.cpp">
+      <Filter>Games\Procedural City</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Source\Core\World.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\Engine.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\include\gl.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\include\glm.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\include\math.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\include\utils.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\Window\WindowObject.h">
+      <Filter>Core\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\GPU\Shader.h">
+      <Filter>Core\GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\Window\WindowCallbacks.h">
+      <Filter>Core\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\GPU\Mesh.h">
+      <Filter>Core\GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\GPU\Texture2D.h">
+      <Filter>Core\GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\Managers\ResourcePath.h">
+      <Filter>Core\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\Managers\TextureManager.h">
+      <Filter>Core\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Component\CameraInput.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\Window\InputController.h">
+      <Filter>Core\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Component\SimpleScene.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Core\GPU\GPUBuffers.h">
+      <Filter>Core\GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Component\SceneInput.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Brick Game\BrickGame.h">
+      <Filter>Games\Brick Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Brick Game\Camera.h">
+      <Filter>Games\Brick Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Brick Game\Level.h">
+      <Filter>Games\Brick Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Brick Game\O2D.h">
+      <Filter>Games\Brick Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Brick Game\Object.h">
+      <Filter>Games\Brick Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Brick Game\T2D.h">
+      <Filter>Games\Brick Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\8 Ball Pool\O3D.h">
+      <Filter>Games\8 Ball Pool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\8 Ball Pool\Objects3D.h">
+      <Filter>Games\8 Ball Pool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\8 Ball Pool\PoolGame.h">
+      <Filter>Games\8 Ball Pool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\8 Ball Pool\T3D.h">
+      <Filter>Games\8 Ball Pool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\8 Ball Pool\Utilities.h">
+      <Filter>Games\8 Ball Pool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Procedural City\Sources\Camera\CityCamera.h">
+      <Filter>Games\Procedural City</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Procedural City\Sources\DataGeneration\BuildingGenerator.h">
+      <Filter>Games\Procedural City</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Procedural City\Sources\DataGeneration\StreetGeneration.h">
+      <Filter>Games\Procedural City</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Procedural City\Sources\Skybox\SkyBox.h">
+      <Filter>Games\Procedural City</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Procedural City\Sources\Utilities\Util.h">
+      <Filter>Games\Procedural City</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\Procedural City\Sources\ProceduralCity.h">
+      <Filter>Games\Procedural City</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Games\gamelist.h">
+      <Filter>Games</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
